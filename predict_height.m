@@ -17,3 +17,9 @@ plot(data(:,1) , y , 'ro' , 'MarkerSize' , 10);
 hold on
 plot(data(:,1) , X*theta , '-');
 
+
+% Predicting Son's height on grounds of  user-input (Example)
+predict (55.44,theta)
+% Output should be 62.389
+
+
