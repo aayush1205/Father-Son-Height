@@ -9,7 +9,7 @@ m=length(y);
 X = [ones(m,1) , data(:,1)];
 
 %generating theta
-theta = pinv(X'*X)*X'*y;
+theta = pinv(X'* X)* X'* y;
 
 %Plotting the data set with the generated hypothesis
 
